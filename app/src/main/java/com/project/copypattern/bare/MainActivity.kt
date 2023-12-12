@@ -1,8 +1,9 @@
-package com.project.copypattern
+package com.project.copypattern.bare
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.project.copypattern.R
 import com.project.copypattern.databinding.ActivityLoginBinding
 
 class MainActivity : AppCompatActivity() {

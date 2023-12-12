@@ -6,4 +6,5 @@
     <string name="login">로그인</string>
     <string name="bare">BARE</string>
     <string name="mvc">MVC</string>
+    <string name="mvp">MVP</string>
 </resources>
