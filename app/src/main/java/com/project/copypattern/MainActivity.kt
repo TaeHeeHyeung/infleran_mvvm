@@ -14,15 +14,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        binding.btnLogin.setOnClickListener {
+        binding.includeLogin.btnLogin.setOnClickListener {
             login()
         }
 
     }
 
     private fun login() {
-        val inputId = binding.etId.text.toString()
-        val inputPass = binding.etPass.text.toString()
+        val inputId = binding.includeLogin.etId.text.toString()
+        val inputPass = binding.includeLogin.etPass.text.toString()
         if (inputId == secretName && inputPass == secretPass) {
             Toast.makeText(this@MainActivity, "success", Toast.LENGTH_SHORT).show()
         } else {
