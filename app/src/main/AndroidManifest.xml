@@ -13,7 +13,13 @@
         android:theme="@style/Theme.CopyPattern"
         tools:targetApi="31">
         <activity
+            android:name=".mvp.MvpMainActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mvc.MvcMainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.CopyPattern">

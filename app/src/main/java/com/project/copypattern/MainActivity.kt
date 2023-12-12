@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        binding.tvTitle.setText(R.string.bare)
         binding.includeLogin.btnLogin.setOnClickListener {
             login()
         }

@@ -4,4 +4,6 @@
     <string name="login_title">로그인</string>
     <string name="pass">패스워드</string>
     <string name="login">로그인</string>
+    <string name="bare">BARE</string>
+    <string name="mvc">MVC</string>
 </resources>
