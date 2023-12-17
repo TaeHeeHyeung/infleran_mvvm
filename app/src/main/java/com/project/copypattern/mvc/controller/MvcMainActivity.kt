@@ -1,10 +1,11 @@
-package com.project.copypattern.mvc
+package com.project.copypattern.mvc.controller
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.project.copypattern.R
 import com.project.copypattern.databinding.ActivityLoginBinding
+import com.project.copypattern.mvc.model.User
 
 class MvcMainActivity : AppCompatActivity() {
     private val binding: ActivityLoginBinding by lazy {

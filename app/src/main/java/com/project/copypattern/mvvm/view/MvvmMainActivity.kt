@@ -1,14 +1,13 @@
-package com.project.copypattern.mvvm
+package com.project.copypattern.mvvm.view
 
-import android.database.Observable
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.get
 import com.project.copypattern.R
 import com.project.copypattern.databinding.ActivityLoginBinding
+import com.project.copypattern.mvvm.viewmodel.LoginViewModel
 
 class MvvmMainActivity : AppCompatActivity() {
     private val binding: ActivityLoginBinding by lazy {

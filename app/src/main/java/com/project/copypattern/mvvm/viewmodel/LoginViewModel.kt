@@ -1,8 +1,9 @@
-package com.project.copypattern.mvvm
+package com.project.copypattern.mvvm.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.project.copypattern.mvvm.model.User
 
 // 로그인 뷰모델
 class LoginViewModel : ViewModel() {

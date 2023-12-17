@@ -1,6 +1,4 @@
-package com.project.copypattern.mvc
-
-import android.widget.Toast
+package com.project.copypattern.mvc.model
 
 data class User(
     var name: String? = null,

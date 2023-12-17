@@ -1,4 +1,4 @@
-package com.project.copypattern.mvvm
+package com.project.copypattern.mvvm.model
 
 data class User(
     var name: String? = null,
