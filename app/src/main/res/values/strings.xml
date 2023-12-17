@@ -7,4 +7,5 @@
     <string name="bare">BARE</string>
     <string name="mvc">MVC</string>
     <string name="mvp">MVP</string>
+    <string name="mvvm">MVVM</string>
 </resources>
